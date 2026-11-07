@@ -1,0 +1,44 @@
+name: sundar_tailor
+description: Offline-first tailoring shop management app for Android phones and tablets.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  supabase_flutter: ^2.8.4
+  connectivity_plus: ^6.0.5
+  flutter_riverpod: ^2.5.1
+  intl: ^0.19.0
+  path: ^1.9.0
+  pdf: ^3.11.3
+  printing: ^5.14.2
+  sqflite: ^2.3.3+1
+  uuid: ^4.4.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  sqflite_common_ffi: ^2.3.3
+  flutter_launcher_icons: ^0.14.4
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: assets/brand/sundar_tailor_icon.png
+  adaptive_icon_background: '#FFFFFF'
+  adaptive_icon_foreground: assets/brand/sundar_tailor_icon.png
+  web:
+    generate: true
+    image_path: assets/brand/sundar_tailor_icon.png
+    background_color: '#FFFFFF'
+    theme_color: '#FFFFFF'
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/brand/sundar_tailor_icon.png
